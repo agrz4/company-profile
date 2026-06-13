@@ -54,7 +54,7 @@ const partners = [
 ];
 
 export function Testimonials() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const isEn = i18n.language === 'en';
   const [currentIndex, setCurrentIndex] = useState(0);
   const { ref, isRevealed } = useScrollReveal(0.1);

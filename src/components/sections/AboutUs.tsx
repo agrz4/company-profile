@@ -7,9 +7,9 @@ export function AboutUs() {
   const { t, i18n } = useTranslation();
   const isEn = i18n.language === 'en';
   
-  const { ref: sectionRef, isRevealed: isSectionRevealed } = useScrollReveal(0.1);
-  const { ref: visionRef, isRevealed: isVisionRevealed } = useScrollReveal(0.1);
-  const { ref: teamRef, isRevealed: isTeamRevealed } = useScrollReveal(0.1);
+  const { ref: sectionRef, isRevealed: isSectionRevealed } = useScrollReveal<HTMLDivElement>(0.1);
+  const { ref: visionRef, isRevealed: isVisionRevealed } = useScrollReveal<HTMLDivElement>(0.1);
+  const { ref: teamRef, isRevealed: isTeamRevealed } = useScrollReveal<HTMLDivElement>(0.1);
 
   return (
     <section

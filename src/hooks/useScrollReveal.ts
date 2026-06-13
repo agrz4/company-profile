@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
-export function useScrollReveal(threshold = 0.1, delay = 0) {
+export function useScrollReveal<T extends HTMLElement = HTMLElement>(threshold = 0.1, delay = 0) {
   const [isRevealed, setIsRevealed] = useState(false);
-  const ref = useRef<HTMLElement>(null);
+  const ref = useRef<T>(null);
 
   useEffect(() => {
     // Respect user preferences for reduced motion
