@@ -103,7 +103,7 @@ export function ContactForm() {
                     {t('contact.phone')}
                   </h4>
                   <p className="text-sm font-body text-charcoal/70">
-                    +62 857-5922-2247
+                    +62 817-671-2525
                   </p>
                 </div>
               </div>

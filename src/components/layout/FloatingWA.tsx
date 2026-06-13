@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 
 export function FloatingWA() {
-  const whatsappNumber = '6285759222247'; 
+  const whatsappNumber = '628176712525'; 
   const message = encodeURIComponent('Hello, I am interested in PT. Nusa Alam Komoditas Indonesia services.');
 
   return (

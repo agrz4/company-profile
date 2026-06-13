@@ -336,7 +336,7 @@ Copyright © 2025 PT. Nusa Alam Komoditas Indonesia. All rights reserved.
 Ruko Gading Shopping Arcade, Blok B No. 8 BJ - BH, Jalan Tanjung Duren, Tj. Duren Sel., Jakarta Barat, 11470  
 🌐 [nusaalamkomoditas.com](https://nusaalamkomoditas.com)  
 📧 info@nusaalamkomoditas.com  
-📱 WhatsApp: [+62 857-5922-2247](https://wa.me/6285759222247)
+📱 WhatsApp: [+62 817-671-2525](https://wa.me/628176712525)
 
 ---
 
