@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1A3A2A;
+  --color-forest-light: #2A543E;
+  --color-forest-dark: #0F251A;
+  --color-earth: #C4873A;
+  --color-earth-light: #D59B4E;
+  --color-earth-dark: #A26E2A;
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #E6DFD3;
+  --color-charcoal: #1C1C1C;
+  
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    color: var(--color-charcoal);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom styles for animations & grids */
+.grid-lines {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(28, 28, 28, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(28, 28, 28, 0.05) 1px, transparent 1px);
+}
+
+.grid-lines-dark {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-forest-light);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-earth);
+}
