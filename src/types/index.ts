@@ -4,7 +4,7 @@ export interface BusinessLine {
   titleId: string;
   descriptionEn: string;
   descriptionId: string;
-  category: 'agriculture' | 'forestry' | 'energy' | 'logistics';
+  category: 'agriculture' | 'forestry' | 'energy' | 'logistics' | 'aquaculture' | 'rental' | 'services';
   icon: string;
 }
 

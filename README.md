@@ -51,7 +51,7 @@ nusa-alam-komoditas/
 │   │   │   ├── Manajemen.tsx        # Management team profiles
 │   │   │   └── Legalitas.tsx        # Legal standing, PT registration & KBLI codes
 │   │   ├── business/
-│   │   │   ├── BusinessLines.tsx    # 11 KBLI business lines with category filter
+│   │   │   ├── BusinessLines.tsx    # 34 KBLI business lines with category filter
 │   │   │   └── BusinessCard.tsx     # Individual business line card
 │   │   ├── services/
 │   │   │   └── Services.tsx         # Services: wholesale trading, export, distribution
@@ -79,7 +79,7 @@ nusa-alam-komoditas/
 │   │   ├── Privacy.tsx           # Privacy Policy (optional)
 │   │   └── NotFound.tsx          # 404 page
 │   ├── data/
-│   │   ├── businessLines.ts      # 11 KBLI business line data
+│   │   ├── businessLines.ts      # 34 KBLI business line data
 │   │   ├── services.ts           # Company services data
 │   │   ├── news.ts               # Sample news/article data
 │   │   └── management.ts         # Management team data
@@ -185,7 +185,7 @@ export default config
 |---|---|---|---|
 | Home | Beranda | `/` | Hero, stats, business highlights, partner logos |
 | About Us | Tentang Kami | `/about` | History, vision & mission, management, legal |
-| Business Lines | Bidang Usaha | `/business` | 11 KBLI lines with category filter |
+| Business Lines | Bidang Usaha | `/business` | 34 KBLI lines with category filter |
 | Services | Layanan | `/services` | Wholesale trading, export/import, distribution |
 | Warehouse & Logistics | Gudang & Logistik | `/warehouse` | Warehouse receipt system, cold storage |
 | News | Berita | `/news` | Company updates, commodity news, industry articles |
@@ -220,7 +220,7 @@ Language toggle is available in the navbar. Translations are managed via `react-
 
 ## 📋 Business Lines (KBLI)
 
-PT. Nusa Alam Komoditas Indonesia holds **11 officially registered business classifications** (KBLI):
+PT. Nusa Alam Komoditas Indonesia holds **34 officially registered business classifications** (KBLI):
 
 | KBLI | Business Line | Category |
 |------|--------------|----------|
@@ -235,6 +235,18 @@ PT. Nusa Alam Komoditas Indonesia holds **11 officially registered business clas
 | 46315 | Wholesale Vegetable Oils & Fats | Agriculture |
 | 52101 | Warehouse Receipt System Management | Logistics |
 | 52102 | Cold Storage Activities | Logistics |
+| 01121 | Hybrid Rice Farming | Agriculture |
+| 01122 | Inbred Rice Farming | Agriculture |
+| 01139 | Other Tuber Crops Farming (Sweet Potato, Taro, Porang, etc.) | Agriculture |
+| 01499 | Other Animal Husbandry & Breeding (Guinea Pig, Dog, Cat, Cricket, etc.) | Agriculture |
+| 03221 | Freshwater Finfish Aquaculture (Non-Ornamental, Unprotected) | Aquaculture |
+| 03223 | Freshwater Aquatic Plant Cultivation (Unprotected) | Aquaculture |
+| 77392 | Rental & Leasing of Agricultural Machinery & Equipment | Rental |
+| 77394 | Rental & Leasing of Office Machinery & Equipment | Rental |
+| 79129 | Other Travel Agency Activities | Services |
+| 82921 | Packaging of Agricultural, Forestry & Fishery Products | Logistics |
+| 82922 | Packaging of Processed Food & Beverage Products | Logistics |
+| 82929 | Other Packaging Activities | Logistics |
 
 ---
 
@@ -257,7 +269,7 @@ PT. Nusa Alam Komoditas Indonesia holds **11 officially registered business clas
 ### Design Principles
 
 - Fullscreen hero with topographic / archipelago texture, reflecting "Nusa" (island) and Indonesia's natural wealth
-- Business grid grouped by category: Agriculture, Energy, Forestry, Logistics
+- Business grid grouped by category: Agriculture, Aquaculture, Energy, Forestry, Logistics, Rental, Services
 - Consistent earthy palette reflecting the commodities industry
 
 ---
@@ -361,7 +373,7 @@ npm run dev
 |------|------|--------|
 | Beranda | `/` | Hero, statistik, highlight bisnis, logo mitra |
 | Tentang Kami | `/about` | Sejarah, visi & misi, manajemen, legalitas |
-| Bidang Usaha | `/business` | 11 KBLI dengan filter kategori |
+| Bidang Usaha | `/business` | 34 KBLI dengan filter kategori |
 | Layanan | `/services` | Perdagangan besar, ekspor/impor, distribusi |
 | Gudang & Logistik | `/warehouse` | Resi gudang (52101), gudang dingin (52102) |
 | Berita | `/news` | Artikel perusahaan & update industri |

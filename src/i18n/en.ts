@@ -42,16 +42,19 @@ export const en = {
     managementSubtitle: 'Meet the visionaries leading our domestic and global commodity trading operations.',
     legalTitle: 'Corporate Legitimacy',
     legalSubtitle: 'Licenses and Certifications',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 11 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, and cold-chain/dry warehousing.'
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 23 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, aquaculture, logistics packaging, and machinery rental services.'
   },
   business: {
     title: 'Registered Business Classifications',
-    subtitle: 'Our 11 official KBLI business licenses across multiple strategic commodity divisions.',
+    subtitle: 'Our 23 official KBLI business licenses across multiple strategic commodity divisions.',
     all: 'All Divisions',
     agriculture: 'Agriculture & Oils',
-    forestry: 'Forestry',
+    aquaculture: 'Aquaculture',
     energy: 'Energy',
-    logistics: 'Logistics'
+    forestry: 'Forestry',
+    logistics: 'Logistics & Packaging',
+    rental: 'Rental & Leasing',
+    services: 'Services'
   },
   services: {
     title: 'End-to-End Solutions',

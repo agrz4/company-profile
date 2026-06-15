@@ -99,5 +99,113 @@ export const businessLines: BusinessLine[] = [
     descriptionId: 'Solusi penyimpanan rantai dingin canggih untuk komoditas mudah rusak seperti ikan, daging, buah, dan sayuran.',
     category: 'logistics',
     icon: 'Snowflake'
+  },
+  {
+    code: '01121',
+    titleEn: 'Hybrid Rice Farming',
+    titleId: 'Pertanian Padi Hibrida',
+    descriptionEn: 'Cultivation and production of high-yield hybrid rice seeds and grains utilizing advanced agronomic practices.',
+    descriptionId: 'Budidaya dan produksi padi hibrida unggul dengan produktivitas tinggi menggunakan teknik agronomi modern.',
+    category: 'agriculture',
+    icon: 'Wheat'
+  },
+  {
+    code: '01122',
+    titleEn: 'Inbred Rice Farming',
+    titleId: 'Pertanian Padi Inbrida',
+    descriptionEn: 'Traditional and sustainable cultivation of inbred rice varieties to preserve grain quality and local heritage.',
+    descriptionId: 'Budidaya padi varietas inbrida secara tradisional dan berkelanjutan untuk menjaga kualitas beras lokal.',
+    category: 'agriculture',
+    icon: 'Sprout'
+  },
+  {
+    code: '01139',
+    titleEn: 'Other Tuber Crops Farming',
+    titleId: 'Pertanian Umbi-Umbian Lainnya',
+    descriptionEn: 'Cultivation of premium root and tuber crops including sweet potato, taro, cassava, and export-grade porang.',
+    descriptionId: 'Budidaya tanaman umbi-umbian berkualitas seperti ubi jalar, talas, singkong, dan porang berstandar ekspor.',
+    category: 'agriculture',
+    icon: 'Bean'
+  },
+  {
+    code: '01499',
+    titleEn: 'Other Animal Husbandry & Breeding',
+    titleId: 'Pembibitan & Budidaya Hewan Lainnya',
+    descriptionEn: 'Specialized breeding and husbandry of domestic animals, pets, and beneficial insects like crickets.',
+    descriptionId: 'Pemeliharaan dan pembibitan hewan alternatif, hewan peliharaan, serta serangga bermanfaat seperti jangkrik.',
+    category: 'agriculture',
+    icon: 'PawPrint'
+  },
+  {
+    code: '03221',
+    titleEn: 'Freshwater Finfish Aquaculture',
+    titleId: 'Budidaya Ikan Air Tawar',
+    descriptionEn: 'Sustainable farming of freshwater food fish such as tilapia, catfish, and carp for domestic and global consumption.',
+    descriptionId: 'Budidaya ikan konsumsi air tawar seperti nila, lele, dan mas secara berkelanjutan untuk ketahanan pangan.',
+    category: 'aquaculture',
+    icon: 'Fish'
+  },
+  {
+    code: '03223',
+    titleEn: 'Freshwater Aquatic Plant Cultivation',
+    titleId: 'Budidaya Tanaman Air Tawar',
+    descriptionEn: 'Cultivation and harvesting of freshwater aquatic plants, algae, and weeds for ecological or commercial uses.',
+    descriptionId: 'Budidaya dan pemanenan tanaman air tawar serta alga untuk kebutuhan ekologis maupun industri komersial.',
+    category: 'aquaculture',
+    icon: 'Leaf'
+  },
+  {
+    code: '77392',
+    titleEn: 'Agricultural Machinery Rental',
+    titleId: 'Penyewaan Mesin Pertanian',
+    descriptionEn: 'Leasing of high-performance agricultural equipment, tractors, harvesters, and irrigation systems to local farmers.',
+    descriptionId: 'Penyewaan alat dan mesin pertanian modern seperti traktor, pemanen padi, dan sistem irigasi pertanian.',
+    category: 'rental',
+    icon: 'Tractor'
+  },
+  {
+    code: '77394',
+    titleEn: 'Office Machinery Rental',
+    titleId: 'Penyewaan Mesin & Peralatan Kantor',
+    descriptionEn: 'Short and long-term leasing of corporate office equipment, computers, printers, and document solutions.',
+    descriptionId: 'Penyewaan peralatan kantor, komputer, mesin fotokopi/printer, dan solusi dokumen jangka panjang maupun pendek.',
+    category: 'rental',
+    icon: 'Printer'
+  },
+  {
+    code: '79129',
+    titleEn: 'Other Travel Agency Activities',
+    titleId: 'Aktivitas Agen Perjalanan Lainnya',
+    descriptionEn: 'Specialized travel management, booking services, trade mission arrangements, and corporate business travel solutions.',
+    descriptionId: 'Layanan manajemen perjalanan bisnis, pengaturan misi dagang, dan solusi perjalanan korporat.',
+    category: 'services',
+    icon: 'Compass'
+  },
+  {
+    code: '82921',
+    titleEn: 'Agricultural & Forestry Packaging',
+    titleId: 'Jasa Pengepakan Hasil Pertanian & Kehutanan',
+    descriptionEn: 'Professional sorting, grading, and protective packaging services for agricultural, forestry, and fishery commodities.',
+    descriptionId: 'Layanan sortir, pemilahan, dan pengepakan protektif profesional untuk komoditas pertanian, kehutanan, dan perikanan.',
+    category: 'logistics',
+    icon: 'Package'
+  },
+  {
+    code: '82922',
+    titleEn: 'Food & Beverage Packaging',
+    titleId: 'Jasa Pengepakan Makanan & Minuman Olahan',
+    descriptionEn: 'Contract packaging, canning, vacuum sealing, and boxing services for processed food and beverages.',
+    descriptionId: 'Jasa pengepakan kontrak, pengalengan, penyegelan vakum, dan pembungkusan produk makanan dan minuman olahan.',
+    category: 'logistics',
+    icon: 'PackageOpen'
+  },
+  {
+    code: '82929',
+    titleEn: 'Other Packaging Activities',
+    titleId: 'Jasa Pengepakan Lainnya',
+    descriptionEn: 'Industrial packaging services, custom wrapping, bundling, and labeling for diverse commercial commodities.',
+    descriptionId: 'Layanan pengemasan industri, pembungkusan kustom, bundling, dan pelabelan berbagai komoditas komersial.',
+    category: 'logistics',
+    icon: 'Boxes'
   }
 ];
