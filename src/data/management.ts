@@ -3,17 +3,17 @@ import type { ManagementMember } from '../types';
 export const managementTeam: ManagementMember[] = [
   {
     name: 'A.A GEDE AJUSTA, S.Kom.',
-    roleEn: 'President Commissioner & Founder',
-    roleId: 'Komisaris Utama & Pendiri'
+    roleEn: 'Commissioner',
+    roleId: 'Komisaris'
   },
   {
     name: 'ENJANG ABDULATIF',
-    roleEn: 'Chief Executive Officer',
+    roleEn: 'President Director',
     roleId: 'Direktur Utama'
   },
   {
     name: 'MORIYATI',
-    roleEn: 'Chief Financial Officer',
+    roleEn: 'Finance Director',
     roleId: 'Direktur Keuangan'
   }
 ];
