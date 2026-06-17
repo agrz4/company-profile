@@ -93,7 +93,7 @@ export const id = {
     message: 'Isi Pesan',
     send: 'Kirim Pesan',
     success: 'Terima kasih! Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.',
-    address: 'Kantor Pusat Korporat',
+    address: 'Alamat Kantor',
     phone: 'Komunikasi Langsung',
     emailLabel: 'Email Kami',
     whatsappLabel: 'WhatsApp Chat',

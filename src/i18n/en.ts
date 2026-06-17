@@ -93,7 +93,7 @@ export const en = {
     message: 'Message Content',
     send: 'Send Inquiry',
     success: 'Thank you! Your message has been sent successfully. We will get back to you shortly.',
-    address: 'Corporate Headquarters',
+    address: 'Office Address',
     phone: 'Direct Communication',
     emailLabel: 'Email Us',
     whatsappLabel: 'WhatsApp Chat',
