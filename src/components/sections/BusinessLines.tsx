@@ -4,7 +4,7 @@ import { businessLines } from '../../data/businessLines';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 import * as Icons from 'lucide-react';
 
-type CategoryFilter = 'all' | 'agriculture' | 'forestry' | 'energy' | 'logistics' | 'aquaculture' | 'rental' | 'services';
+type CategoryFilter = 'all' | 'agriculture' | 'forestry' | 'energy' | 'logistics' | 'aquaculture' | 'rental' | 'services' | 'construction';
 
 export function BusinessLines() {
   const { t, i18n } = useTranslation();
@@ -16,6 +16,7 @@ export function BusinessLines() {
     { id: 'all', labelKey: 'business.all' },
     { id: 'agriculture', labelKey: 'business.agriculture' },
     { id: 'aquaculture', labelKey: 'business.aquaculture' },
+    { id: 'construction', labelKey: 'business.construction' },
     { id: 'energy', labelKey: 'business.energy' },
     { id: 'forestry', labelKey: 'business.forestry' },
     { id: 'logistics', labelKey: 'business.logistics' },

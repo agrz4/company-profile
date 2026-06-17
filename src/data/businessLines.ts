@@ -207,5 +207,23 @@ export const businessLines: BusinessLine[] = [
     descriptionId: 'Layanan pengemasan industri, pembungkusan kustom, bundling, dan pelabelan berbagai komoditas komersial.',
     category: 'logistics',
     icon: 'Boxes'
+  },
+  {
+    code: '46738',
+    titleEn: 'Wholesale Various Building Materials',
+    titleId: 'Perdagangan Besar Berbagai Macam Bahan Bangunan',
+    descriptionEn: 'Wholesale trade of key building components including cement, sand, gravel, bricks, nails, and paint.',
+    descriptionId: 'Perdagangan besar bahan konstruksi utama termasuk semen, pasir, kerikil, batu bata, paku, dan cat.',
+    category: 'construction',
+    icon: 'Hammer'
+  },
+  {
+    code: '46735',
+    titleEn: 'Wholesale Porcelain Construction Materials',
+    titleId: 'Perdagangan Besar Bahan Konstruksi dari Porselen',
+    descriptionEn: 'Wholesale of premium porcelain fixtures, sanitary wares, toilets, sinks, and ceramic tiles.',
+    descriptionId: 'Perdagangan besar perlengkapan porselen premium, alat sanitasi, toilet, wastafel, dan ubin keramik.',
+    category: 'construction',
+    icon: 'Grid'
   }
 ];

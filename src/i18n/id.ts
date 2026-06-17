@@ -42,14 +42,15 @@ export const id = {
     managementSubtitle: 'Temui para visioner yang memimpin operasional perdagangan komoditas domestik dan global kami.',
     legalTitle: 'Legalitas Perusahaan',
     legalSubtitle: 'Izin dan Sertifikasi Resmi',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 23 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, serta aktivitas agen perjalanan.'
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 25 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, aktivitas agen perjalanan, serta perdagangan bahan bangunan konstruksi.'
   },
   business: {
     title: 'Klasifikasi Bidang Usaha Resmi',
-    subtitle: '23 perizinan KBLI resmi kami yang tersebar di beberapa divisi komoditas strategis.',
+    subtitle: '25 perizinan KBLI resmi kami yang tersebar di beberapa divisi komoditas strategis.',
     all: 'Semua Divisi',
     agriculture: 'Pertanian & Minyak',
     aquaculture: 'Akuakultur',
+    construction: 'Konstruksi',
     energy: 'Energi',
     forestry: 'Kehutanan',
     logistics: 'Pergudangan & Pengepakan',
