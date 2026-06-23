@@ -15,7 +15,9 @@ export const en = {
     titleSub: 'EXPORT LEADER',
     ctaBusiness: 'Explore Business',
     ctaContact: 'Contact Us',
-    badgeText: 'Global Export Excellence'
+    badgeText: 'Global Export Excellence',
+    badgeDesc: 'Connecting Indonesian commodity hubs like Sumatra, Java, and Sulawesi directly to Singapore, China, Europe, and America.',
+    scroll: 'Scroll'
   },
   stats: {
     scoreTitle: '100%',
@@ -42,7 +44,9 @@ export const en = {
     managementSubtitle: 'Meet the visionaries leading our domestic and global commodity trading operations.',
     legalTitle: 'Corporate Legitimacy',
     legalSubtitle: 'Licenses and Certifications',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 25 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, aquaculture, logistics packaging, machinery rental services, and building materials construction.'
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 25 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, aquaculture, logistics packaging, machinery rental services, and building materials construction.',
+    regulationStatus: 'Regulatory Status',
+    verified: '100% Verified'
   },
   business: {
     title: 'Registered Business Classifications',
@@ -55,7 +59,9 @@ export const en = {
     forestry: 'Forestry',
     logistics: 'Logistics & Packaging',
     rental: 'Rental & Leasing',
-    services: 'Services'
+    services: 'Services',
+    division: 'Division',
+    kbliRegistered: 'KBLI Registered'
   },
   services: {
     title: 'End-to-End Solutions',
@@ -72,7 +78,7 @@ export const en = {
     systemDesc: 'Providing authorized storage facilities under KBLI 52101, allowing local farmers and trade partners to secure financing using commodity receipts.',
     coldTitle: 'Cold Storage Operations',
     coldDesc: 'Providing specialized sub-zero cooling warehouses (KBLI 52102) to preserve seafood, fruits, and organic crops in perfect condition.',
-    facilityTitle: 'Fasilitas & Jangkauan',
+    facilityTitle: 'Facilities & Reach',
     facilityDesc: 'Located strategically near primary ports in Jakarta, Surabaya, and Medan for swift loading.'
   },
   map: {
@@ -83,7 +89,8 @@ export const en = {
     logistics: 'Efficient Logistics Management',
     logisticsDesc: 'Integrating dry storage, cold chain, and shipping for zero downtime.',
     satisfaction: 'Customer Satisfaction Focus',
-    satisfactionDesc: 'Ensuring correct moisture content, clean phytosanitary grades, and fast response times.'
+    satisfactionDesc: 'Ensuring correct moisture content, clean phytosanitary grades, and fast response times.',
+    originPort: 'Jakarta (HQ) Origin Port'
   },
   contact: {
     title: 'Get In Touch',
@@ -99,7 +106,8 @@ export const en = {
     emailLabel: 'Email Us',
     whatsappLabel: 'WhatsApp Chat',
     hours: 'Business Hours',
-    hoursVal: 'Monday - Friday, 08.00 - 17.00 WIB'
+    hoursVal: 'Monday - Friday, 08.00 - 17.00 WIB',
+    whatsappUs: 'WhatsApp Us'
   },
   news: {
     title: 'Insights & Industry News',
@@ -107,5 +115,16 @@ export const en = {
     readMore: 'Read Full Article',
     back: 'Back to Articles',
     author: 'By'
+  },
+  testimonials: {
+    badge: 'Client Reviews',
+    title: 'Trust Us',
+    partnersTitle: 'Partners & Global Clients'
+  },
+  footer: {
+    description: 'PT. Nusa Alam Komoditas Indonesia is an Indonesian wholesale exporter bridging natural crops, energy, and forestry resources with international trading markets.',
+    navigation: 'Navigation',
+    privacyPolicy: 'Privacy Policy',
+    termsOfService: 'Terms of Service'
   }
 };

@@ -1,6 +1,8 @@
 import { MessageCircle } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export function FloatingWA() {
+  const { t } = useTranslation();
   const whatsappNumber = '628176712525'; 
   const message = encodeURIComponent('Hello, I am interested in PT. Nusa Alam Komoditas Indonesia services.');
 
@@ -14,7 +16,7 @@ export function FloatingWA() {
     >
       <MessageCircle className="h-6 w-6 fill-current" />
       <span className="max-w-0 overflow-hidden whitespace-nowrap text-sm font-semibold transition-all duration-300 group-hover:max-w-xs font-body">
-        WhatsApp Us
+        {t('contact.whatsappUs')}
       </span>
     </a>
   );

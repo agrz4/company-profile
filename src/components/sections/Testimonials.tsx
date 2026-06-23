@@ -54,7 +54,7 @@ const partners = [
 ];
 
 export function Testimonials() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const isEn = i18n.language === 'en';
   const [currentIndex, setCurrentIndex] = useState(0);
   const { ref, isRevealed } = useScrollReveal(0.1);
@@ -88,10 +88,10 @@ export function Testimonials() {
             {/* Left Header */}
             <div className="md:w-1/3 space-y-2">
               <span className="text-xs font-bold uppercase tracking-widest text-earth bg-earth/10 px-3.5 py-1.5 rounded-full inline-block">
-                Client Reviews
+                {t('testimonials.badge')}
               </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-forest">
-                Trust Us
+                {t('testimonials.title')}
               </h2>
             </div>
 
@@ -143,7 +143,7 @@ export function Testimonials() {
         {/* Partner Logo Ticker */}
         <div className="space-y-6">
           <h3 className="text-center text-xs uppercase tracking-widest text-charcoal/40 font-body font-bold">
-            Mitra Kerja Sama & Klien Global
+            {t('testimonials.partnersTitle')}
           </h3>
           <div className="relative overflow-hidden w-full py-4 border-y border-cream-dark/20">
             <div className="flex items-center space-x-12 animate-ticker whitespace-nowrap">

@@ -128,7 +128,7 @@ export function ExportMap() {
           <div className="absolute bottom-4 left-6 flex items-center space-x-2">
             <span className="h-2 w-2 rounded-full bg-earth animate-ping" />
             <span className="text-[10px] text-earth font-body font-semibold uppercase tracking-widest">
-              Jakarta (HQ) Origin Port
+              {t('map.originPort')}
             </span>
           </div>
         </div>

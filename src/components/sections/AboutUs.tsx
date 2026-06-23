@@ -105,8 +105,8 @@ export function AboutUs() {
               <div className="inline-flex items-center space-x-3 bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl px-6 py-4">
                 <ShieldCheck className="h-8 w-8 text-earth shrink-0" />
                 <div className="text-left">
-                  <span className="text-xs text-cream/60 font-body block">Status Regulasi</span>
-                  <span className="text-sm font-bold text-cream font-body">100% Terverifikasi</span>
+                  <span className="text-xs text-cream/60 font-body block">{t('about.regulationStatus')}</span>
+                  <span className="text-sm font-bold text-cream font-body">{t('about.verified')}</span>
                 </div>
               </div>
             </div>

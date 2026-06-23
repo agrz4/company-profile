@@ -82,7 +82,7 @@ export function Hero() {
                 {t('hero.badgeText')}
               </span>
               <p className="text-xs text-cream/70 font-body leading-normal">
-                Connecting Indonesian commodity hubs like Sumatra, Java, and Sulawesi directly to Singapore, China, Europe, and America.
+                {t('hero.badgeDesc')}
               </p>
             </div>
           </div>
@@ -102,7 +102,7 @@ export function Hero() {
           onClick={() => handleScrollTo('stats')}
           className="absolute right-8 bottom-4 text-cream/40 hover:text-earth transition cursor-pointer flex flex-col items-center space-y-1 animate-bounce"
         >
-          <span className="text-[10px] uppercase tracking-widest font-body font-semibold">Scroll</span>
+          <span className="text-[10px] uppercase tracking-widest font-body font-semibold">{t('hero.scroll')}</span>
           <ChevronDown className="h-4 w-4" />
         </div>
       </div>

@@ -36,7 +36,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-cream/60 font-body text-sm leading-relaxed">
-              PT. Nusa Alam Komoditas Indonesia is an Indonesian wholesale exporter bridging natural crops, energy, and forestry resources with international trading markets.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-3 pt-2">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full text-cream/70 hover:text-earth hover:bg-white/10 transition">
@@ -53,7 +53,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-earth font-display font-semibold text-lg mb-4">Navigasi</h3>
+            <h3 className="text-earth font-display font-semibold text-lg mb-4">{t('footer.navigation')}</h3>
             <ul className="space-y-2 font-body text-sm">
               {[
                 { id: 'home', label: t('nav.home') },
@@ -77,7 +77,7 @@ export function Footer() {
 
           {/* Contact Details */}
           <div>
-            <h3 className="text-earth font-display font-semibold text-lg mb-4">Kontak</h3>
+            <h3 className="text-earth font-display font-semibold text-lg mb-4">{t('nav.contact')}</h3>
             <ul className="space-y-3 font-body text-sm text-cream/75">
               <li className="flex items-start space-x-2.5">
                 <MapPin className="h-5 w-5 text-earth shrink-0" />
@@ -107,8 +107,8 @@ export function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-cream/45 font-body">
           <p>© 2026 PT. Nusa Alam Komoditas Indonesia. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a href="#privacy" className="hover:text-cream transition">Privacy Policy</a>
-            <a href="#terms" className="hover:text-cream transition">Terms of Service</a>
+            <a href="#privacy" className="hover:text-cream transition">{t('footer.privacyPolicy')}</a>
+            <a href="#terms" className="hover:text-cream transition">{t('footer.termsOfService')}</a>
           </div>
         </div>
       </div>

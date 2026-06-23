@@ -15,7 +15,9 @@ export const id = {
     titleSub: 'UTAMA INDONESIA',
     ctaBusiness: 'Jelajahi Usaha',
     ctaContact: 'Hubungi Kami',
-    badgeText: 'Keunggulan Ekspor Global'
+    badgeText: 'Keunggulan Ekspor Global',
+    badgeDesc: 'Menghubungkan pusat komoditas Indonesia seperti Sumatra, Jawa, dan Sulawesi secara langsung ke Singapura, China, Eropa, dan Amerika.',
+    scroll: 'Gulir'
   },
   stats: {
     scoreTitle: '100%',
@@ -42,7 +44,9 @@ export const id = {
     managementSubtitle: 'Temui para visioner yang memimpin operasional perdagangan komoditas domestik dan global kami.',
     legalTitle: 'Legalitas Perusahaan',
     legalSubtitle: 'Izin dan Sertifikasi Resmi',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 25 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, aktivitas agen perjalanan, serta perdagangan bahan bangunan konstruksi.'
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 25 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, aktivitas agen perjalanan, serta perdagangan bahan bangunan konstruksi.',
+    regulationStatus: 'Status Regulasi',
+    verified: '100% Terverifikasi'
   },
   business: {
     title: 'Klasifikasi Bidang Usaha Resmi',
@@ -55,7 +59,9 @@ export const id = {
     forestry: 'Kehutanan',
     logistics: 'Pergudangan & Pengepakan',
     rental: 'Penyewaan & Sewa',
-    services: 'Layanan Jasa'
+    services: 'Layanan Jasa',
+    division: 'Divisi',
+    kbliRegistered: 'KBLI Terdaftar'
   },
   services: {
     title: 'Solusi Menyeluruh',
@@ -83,7 +89,8 @@ export const id = {
     logistics: 'Manajemen Logistik Efisien',
     logisticsDesc: 'Mengintegrasikan penyimpanan kering, rantai dingin, dan pelayaran untuk meminimalkan waktu tunggu.',
     satisfaction: 'Fokus Kepuasan Pelanggan',
-    satisfactionDesc: 'Memastikan kadar air yang tepat, kebersihan fitosanitari, dan waktu respons yang cepat.'
+    satisfactionDesc: 'Memastikan kadar air yang tepat, kebersihan fitosanitari, dan waktu respons yang cepat.',
+    originPort: 'Pelabuhan Asal Jakarta (HQ)'
   },
   contact: {
     title: 'Hubungi Kami',
@@ -99,7 +106,8 @@ export const id = {
     emailLabel: 'Email Kami',
     whatsappLabel: 'WhatsApp Chat',
     hours: 'Jam Operasional',
-    hoursVal: 'Senin - Jumat, 08.00 - 17.00 WIB'
+    hoursVal: 'Senin - Jumat, 08.00 - 17.00 WIB',
+    whatsappUs: 'WhatsApp Kami'
   },
   news: {
     title: 'Informasi & Kabar Industri',
@@ -107,5 +115,16 @@ export const id = {
     readMore: 'Baca Selengkapnya',
     back: 'Kembali ke Berita',
     author: 'Oleh'
+  },
+  testimonials: {
+    badge: 'Ulasan Klien',
+    title: 'Kepercayaan Anda',
+    partnersTitle: 'Mitra Kerja Sama & Klien Global'
+  },
+  footer: {
+    description: 'PT. Nusa Alam Komoditas Indonesia adalah eksportir grosir Indonesia yang menjembatani hasil pertanian alam, energi, dan sumber daya kehutanan dengan pasar perdagangan internasional.',
+    navigation: 'Navigasi',
+    privacyPolicy: 'Kebijakan Privasi',
+    termsOfService: 'Ketentuan Layanan'
   }
 };

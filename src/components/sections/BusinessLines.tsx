@@ -40,7 +40,7 @@ export function BusinessLines() {
         {/* Section Title */}
         <div className="text-center space-y-3 mb-12">
           <span className="text-xs font-bold uppercase tracking-widest text-earth bg-earth/10 px-3.5 py-1.5 rounded-full inline-block">
-            KBLI Registered
+            {t('business.kbliRegistered')}
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-forest">
             {t('business.title')}
@@ -102,7 +102,7 @@ export function BusinessLines() {
 
                 {/* Card Footer: Category Label */}
                 <div className="border-t border-cream-dark/30 pt-4 mt-6 flex items-center justify-between text-xs">
-                  <span className="text-charcoal/40 font-body uppercase font-medium">Division</span>
+                  <span className="text-charcoal/40 font-body uppercase font-medium">{t('business.division')}</span>
                   <span className="text-forest/75 font-body font-semibold capitalize">
                     {line.category}
                   </span>
