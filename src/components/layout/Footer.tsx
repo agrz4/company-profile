@@ -81,7 +81,7 @@ export function Footer() {
             <ul className="space-y-3 font-body text-sm text-cream/75">
               <li className="flex items-start space-x-2.5">
                 <MapPin className="h-5 w-5 text-earth shrink-0" />
-                <span className="leading-normal">Ruko Gading Shopping Arcade, Blok B No. 8 BJ - BH, Jalan Tanjung Duren, Tj. Duren Sel., Jakarta Barat, 11470</span>
+                <span className="leading-normal">Jl. Letjen S. Parman No.28, RT.15/RW.5, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470</span>
               </li>
               <li className="flex items-center space-x-2.5">
                 <Phone className="h-5 w-5 text-earth shrink-0" />

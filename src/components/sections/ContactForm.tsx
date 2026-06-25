@@ -73,7 +73,7 @@ export function ContactForm() {
                     {t('contact.address')}
                   </h4>
                   <p className="text-sm font-body text-charcoal/70 leading-relaxed">
-                    Ruko Gading Shopping Arcade, Blok B No. 8 BJ - BH Jalan Tanjung Duren RT.15 12, RT.5/RW.5, Tj. Duren Sel., Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
+                    Jl. Letjen S. Parman No.28, RT.15/RW.5, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470
                   </p>
                 </div>
               </div>
@@ -222,7 +222,7 @@ export function ContactForm() {
         <div className="rounded-3xl overflow-hidden shadow-lg border border-cream-dark/40 h-[400px]">
           <iframe
             title="Office Location Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6648508741728!2d106.78535448885495!3d-6.175602799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65f18e54bd3%3A0x45f7db34da804907!2sFish%20%26%20Cheap!5e0!3m2!1sid!2sid!4v1781333088854!5m2!1sid!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7933.329072493255!2d106.78986529999999!3d-6.1756448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65f70dbb531%3A0x73ab275686539219!2sJl.%20Letjen%20S.%20Parman%20No.28%2C%20RT.15%2FRW.5%2C%20Tj.%20Duren%20Sel.%2C%20Kec.%20Grogol%20petamburan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011470!5e0!3m2!1sid!2sid!4v1782362087418!5m2!1sid!2sid"
             width="100%"
             height="100%"
             style={{ border: 0 }}
