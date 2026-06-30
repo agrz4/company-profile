@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Mail, MapPin, Phone, Linkedin, Instagram, Facebook } from 'lucide-react';
-import logoImg from '../../assets/img/logo.png';
+import logoImg from '../../assets/img/logo_naki.png';
 
 export function Footer() {
   const { t } = useTranslation();

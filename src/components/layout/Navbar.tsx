@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Globe } from 'lucide-react';
-import logoImg from '../../assets/img/logo.png';
+import logoImg from '../../assets/img/logo_naki.png';
 
 interface NavbarProps {
   activeSection: string;
@@ -55,8 +55,8 @@ export function Navbar({ activeSection }: NavbarProps) {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-forest/95 backdrop-blur-md py-4 shadow-lg border-b border-white/10'
-          : 'bg-gradient-to-b from-black/60 to-transparent py-6'
+        ? 'bg-forest/95 backdrop-blur-md py-4 shadow-lg border-b border-white/10'
+        : 'bg-gradient-to-b from-black/60 to-transparent py-6'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -86,8 +86,8 @@ export function Navbar({ activeSection }: NavbarProps) {
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
                 className={`px-3 py-2 text-sm font-body font-medium rounded-md transition-colors duration-200 cursor-pointer ${activeSection === item.id
-                    ? 'text-earth font-bold bg-white/5'
-                    : 'text-cream/80 hover:text-cream hover:bg-white/5'
+                  ? 'text-earth font-bold bg-white/5'
+                  : 'text-cream/80 hover:text-cream hover:bg-white/5'
                   }`}
               >
                 {item.label}
@@ -143,8 +143,8 @@ export function Navbar({ activeSection }: NavbarProps) {
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
                 className={`block w-full text-left px-4 py-3 text-base font-body font-medium rounded-lg transition-colors cursor-pointer ${activeSection === item.id
-                    ? 'text-earth bg-white/5 font-bold'
-                    : 'text-cream/80 hover:text-cream hover:bg-white/5'
+                  ? 'text-earth bg-white/5 font-bold'
+                  : 'text-cream/80 hover:text-cream hover:bg-white/5'
                   }`}
               >
                 {item.label}
