@@ -88,7 +88,7 @@ export function ContactForm() {
                     {t('contact.emailLabel')}
                   </h4>
                   <p className="text-sm font-body text-charcoal/70">
-                    info@nusaalamkomoditas.com
+                    info@ptnaki.com
                   </p>
                 </div>
               </div>

@@ -89,7 +89,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2.5">
                 <Mail className="h-5 w-5 text-earth shrink-0" />
-                <span>info@nusaalamkomoditas.com</span>
+                <span>info@ptnaki.com</span>
               </li>
             </ul>
           </div>

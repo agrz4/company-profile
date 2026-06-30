@@ -349,7 +349,7 @@ Copyright © 2026 PT. Nusa Alam Komoditas Indonesia. All rights reserved.
 **PT. Nusa Alam Komoditas Indonesia**  
 Jl. Letjen S. Parman No.28, RT.15/RW.5, Tj. Duren Sel., Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11470  
 🌐 [nusaalamkomoditas.com](https://nusaalamkomoditas.com)  
-📧 info@nusaalamkomoditas.com  
+📧 info@ptnaki.com
 📱 WhatsApp: [+62 817-671-2525](https://wa.me/628176712525)
 
 ---
