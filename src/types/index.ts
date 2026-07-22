@@ -1,5 +1,4 @@
 export interface BusinessLine {
-  code: string;
   titleEn: string;
   titleId: string;
   descriptionEn: string;

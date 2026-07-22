@@ -75,15 +75,12 @@ export function BusinessLines() {
 
             return (
               <div
-                key={line.code}
+                key={line.titleEn}
                 className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/40 hover:shadow-md hover:border-earth/30 transition-all duration-300 flex flex-col justify-between group"
               >
                 <div className="space-y-4">
-                  {/* Card Header: KBLI Code & Icon */}
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold font-body text-earth uppercase bg-earth/10 px-2.5 py-1 rounded-md">
-                      KBLI {line.code}
-                    </span>
+                  {/* Card Header: Icon */}
+                  <div className="flex items-center justify-end">
                     <div className="p-3 bg-cream text-forest rounded-xl group-hover:bg-earth group-hover:text-forest-dark transition-colors duration-300">
                       <IconComponent className="h-5 w-5" />
                     </div>
