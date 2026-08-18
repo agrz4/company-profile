@@ -74,22 +74,6 @@ export const businessLines: BusinessLine[] = [
     icon: 'Container'
   },
   {
-    titleEn: 'Warehouse Receipt System Management',
-    titleId: 'Pengelola Gudang Sistem Resi Gudang',
-    descriptionEn: 'Regulated warehousing services supporting the Indonesian Warehouse Receipt System (SRG) for commodities.',
-    descriptionId: 'Layanan pergudangan terdaftar yang mendukung Sistem Resi Gudang (SRG) nasional untuk penjaminan komoditas.',
-    category: 'logistics',
-    icon: 'FileCheck'
-  },
-  {
-    titleEn: 'Cold Storage Activities',
-    titleId: 'Aktivitas Gudang Dingin',
-    descriptionEn: 'Advanced cold-chain storage solutions for perishable items such as fish, meat, fruits, and vegetables.',
-    descriptionId: 'Solusi penyimpanan rantai dingin canggih untuk komoditas mudah rusak seperti ikan, daging, buah, dan sayuran.',
-    category: 'logistics',
-    icon: 'Snowflake'
-  },
-  {
     titleEn: 'Hybrid Rice Farming',
     titleId: 'Pertanian Padi Hibrida',
     descriptionEn: 'Cultivation and production of high-yield hybrid rice seeds and grains utilizing advanced agronomic practices.',
