@@ -44,13 +44,13 @@ export const en = {
     managementSubtitle: 'Meet the visionaries leading our domestic and global commodity trading operations.',
     legalTitle: 'Corporate Legitimacy',
     legalSubtitle: 'Licenses and Certifications',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 23 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, aquaculture, logistics packaging, machinery rental services, and building materials construction.',
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia is fully registered and operational under the Republic of Indonesia Ministry of Trade and Investment rules. The company holds 25 official KBLI business licenses spanning agricultural trading, oil-fruit sourcing, sustainable forestry, energy resources, aquaculture, logistics packaging, machinery rental services, and building materials construction.',
     regulationStatus: 'Regulatory Status',
     verified: '100% Verified'
   },
   business: {
     title: 'Registered Business Classifications',
-    subtitle: 'Our 23 official KBLI business licenses across multiple strategic commodity divisions.',
+    subtitle: 'Our 25 official KBLI business licenses across multiple strategic commodity divisions.',
     all: 'All Divisions',
     agriculture: 'Agriculture & Oils',
     aquaculture: 'Aquaculture',
@@ -75,9 +75,9 @@ export const en = {
     secureSub: 'Secure Environment',
     secureDesc: 'Advanced temperature monitors & safety controls to minimize commodity spoilage.',
     systemTitle: 'Warehouse Receipt System (SRG)',
-    systemDesc: 'Providing authorized storage facilities under KBLI 52101, allowing local farmers and trade partners to secure financing using commodity receipts.',
+    systemDesc: 'Providing authorized storage facilities, allowing local farmers and trade partners to secure financing using commodity receipts.',
     coldTitle: 'Cold Storage Operations',
-    coldDesc: 'Providing specialized sub-zero cooling warehouses (KBLI 52102) to preserve seafood, fruits, and organic crops in perfect condition.',
+    coldDesc: 'Providing specialized sub-zero cooling warehouses to preserve seafood, fruits, and organic crops in perfect condition.',
     facilityTitle: 'Facilities & Reach',
     facilityDesc: 'Located strategically near primary ports in Jakarta, Surabaya, and Medan for swift loading.'
   },

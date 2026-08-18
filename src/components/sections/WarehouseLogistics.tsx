@@ -66,14 +66,9 @@ export function WarehouseLogistics() {
                   <Clipboard className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-center space-x-2">
-                    <h3 className="text-xl font-display font-bold text-forest">
-                      {t('warehouse.systemTitle')}
-                    </h3>
-                    <span className="text-[10px] font-body text-earth uppercase font-bold bg-earth/10 px-2 py-0.5 rounded">
-                      KBLI 52101
-                    </span>
-                  </div>
+                  <h3 className="text-xl font-display font-bold text-forest">
+                    {t('warehouse.systemTitle')}
+                  </h3>
                   <p className="text-sm font-body text-charcoal/70 leading-relaxed">
                     {t('warehouse.systemDesc')}
                   </p>
@@ -88,14 +83,9 @@ export function WarehouseLogistics() {
                   <Snowflake className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-center space-x-2">
-                    <h3 className="text-xl font-display font-bold text-forest">
-                      {t('warehouse.coldTitle')}
-                    </h3>
-                    <span className="text-[10px] font-body text-earth uppercase font-bold bg-earth/10 px-2 py-0.5 rounded">
-                      KBLI 52102
-                    </span>
-                  </div>
+                  <h3 className="text-xl font-display font-bold text-forest">
+                    {t('warehouse.coldTitle')}
+                  </h3>
                   <p className="text-sm font-body text-charcoal/70 leading-relaxed">
                     {t('warehouse.coldDesc')}
                   </p>

@@ -44,13 +44,13 @@ export const id = {
     managementSubtitle: 'Temui para visioner yang memimpin operasional perdagangan komoditas domestik dan global kami.',
     legalTitle: 'Legalitas Perusahaan',
     legalSubtitle: 'Izin dan Sertifikasi Resmi',
-    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 23 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, aktivitas agen perjalanan, serta perdagangan bahan bangunan konstruksi.',
+    legalDesc: 'PT. Nusa Alam Komoditas Indonesia terdaftar penuh dan beroperasi di bawah naungan Kementerian Perdagangan dan Kementerian Investasi Republik Indonesia. Perusahaan secara resmi memegang 25 izin usaha KBLI yang mencakup pertanian padi dan umbi, perikanan akuakultur, kehutanan, energi, pergudangan dan jasa pengepakan, penyewaan alat, aktivitas agen perjalanan, serta perdagangan bahan bangunan konstruksi.',
     regulationStatus: 'Status Regulasi',
     verified: '100% Terverifikasi'
   },
   business: {
     title: 'Klasifikasi Bidang Usaha Resmi',
-    subtitle: '23 perizinan KBLI resmi kami yang tersebar di beberapa divisi komoditas strategis.',
+    subtitle: '25 perizinan KBLI resmi kami yang tersebar di beberapa divisi komoditas strategis.',
     all: 'Semua Divisi',
     agriculture: 'Pertanian & Minyak',
     aquaculture: 'Akuakultur',
@@ -75,9 +75,9 @@ export const id = {
     secureSub: 'Lingkungan Aman',
     secureDesc: 'Pemantauan suhu canggih & kontrol keselamatan untuk meminimalkan kerusakan komoditas.',
     systemTitle: 'Sistem Resi Gudang (SRG)',
-    systemDesc: 'Menyediakan fasilitas penyimpanan terdaftar di bawah KBLI 52101, memungkinkan petani lokal dan mitra dagang mendapatkan pembiayaan bank berbasis resi barang.',
+    systemDesc: 'Menyediakan fasilitas penyimpanan terdaftar, memungkinkan petani lokal dan mitra dagang mendapatkan pembiayaan bank berbasis resi barang.',
     coldTitle: 'Aktivitas Gudang Dingin',
-    coldDesc: 'Menyediakan gudang pendingin khusus sub-zero (KBLI 52102) untuk menjaga kesegaran seafood, buah-buahan, dan hasil pertanian organik agar tetap prima.',
+    coldDesc: 'Menyediakan gudang pendingin khusus sub-zero untuk menjaga kesegaran seafood, buah-buahan, dan hasil pertanian organik agar tetap prima.',
     facilityTitle: 'Fasilitas & Jangkauan',
     facilityDesc: 'Berlokasi strategis di dekat pelabuhan utama di Jakarta, Surabaya, dan Medan untuk proses pemuatan yang cepat.'
   },
