@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Mail, MapPin, Phone, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { Mail, MapPin, Phone, Linkedin, Instagram, Facebook, ExternalLink } from 'lucide-react';
 import logoImg from '../../assets/img/logo_naki.png';
 
 export function Footer() {
@@ -59,17 +59,30 @@ export function Footer() {
                 { id: 'home', label: t('nav.home') },
                 { id: 'about', label: t('nav.about') },
                 { id: 'business', label: t('nav.business') },
+                { id: 'catalog', label: t('nav.catalog'), href: 'https://nakindonesia.co.id/products' },
                 { id: 'services', label: t('nav.services') },
                 { id: 'warehouse', label: t('nav.warehouse') },
                 { id: 'news', label: t('nav.news') },
               ].map((link) => (
                 <li key={link.id}>
-                  <button
-                    onClick={() => handleNavClick(link.id)}
-                    className="text-cream/60 hover:text-earth transition duration-200 cursor-pointer"
-                  >
-                    {link.label}
-                  </button>
+                  {link.href ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cream/60 hover:text-earth transition duration-200 inline-flex items-center gap-1.5"
+                    >
+                      <span>{link.label}</span>
+                      <ExternalLink className="h-3 w-3 opacity-70" />
+                    </a>
+                  ) : (
+                    <button
+                      onClick={() => handleNavClick(link.id)}
+                      className="text-cream/60 hover:text-earth transition duration-200 cursor-pointer"
+                    >
+                      {link.label}
+                    </button>
+                  )}
                 </li>
               ))}
             </ul>

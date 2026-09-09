@@ -1,10 +1,16 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X, Globe, ExternalLink } from 'lucide-react';
 import logoImg from '../../assets/img/logo_naki.png';
 
 interface NavbarProps {
   activeSection: string;
+}
+
+interface NavItem {
+  id: string;
+  label: string;
+  href?: string;
 }
 
 export function Navbar({ activeSection }: NavbarProps) {
@@ -20,10 +26,11 @@ export function Navbar({ activeSection }: NavbarProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = [
+  const navItems: NavItem[] = [
     { id: 'home', label: t('nav.home') },
     { id: 'about', label: t('nav.about') },
     { id: 'business', label: t('nav.business') },
+    { id: 'catalog', label: t('nav.catalog'), href: 'https://nakindonesia.co.id/products' },
     { id: 'services', label: t('nav.services') },
     { id: 'warehouse', label: t('nav.warehouse') },
     { id: 'news', label: t('nav.news') },
@@ -81,18 +88,31 @@ export function Navbar({ activeSection }: NavbarProps) {
 
           {/* Desktop Navigation Links */}
           <div className="hidden lg:flex items-center space-x-1">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => handleNavClick(item.id)}
-                className={`px-3 py-2 text-sm font-body font-medium rounded-md transition-colors duration-200 cursor-pointer ${activeSection === item.id
-                  ? 'text-earth font-bold bg-white/5'
-                  : 'text-cream/80 hover:text-cream hover:bg-white/5'
-                  }`}
-              >
-                {item.label}
-              </button>
-            ))}
+            {navItems.map((item) =>
+              item.href ? (
+                <a
+                  key={item.id}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-2 text-sm font-body font-medium rounded-md transition-colors duration-200 cursor-pointer text-cream/80 hover:text-cream hover:bg-white/5 inline-flex items-center gap-1.5"
+                >
+                  <span>{item.label}</span>
+                  <ExternalLink className="h-3.5 w-3.5 text-earth/90" />
+                </a>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => handleNavClick(item.id)}
+                  className={`px-3 py-2 text-sm font-body font-medium rounded-md transition-colors duration-200 cursor-pointer ${activeSection === item.id
+                    ? 'text-earth font-bold bg-white/5'
+                    : 'text-cream/80 hover:text-cream hover:bg-white/5'
+                    }`}
+                >
+                  {item.label}
+                </button>
+              )
+            )}
           </div>
 
           {/* Controls: Language and Contact */}
@@ -138,18 +158,32 @@ export function Navbar({ activeSection }: NavbarProps) {
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-forest/95 backdrop-blur-lg border-b border-white/10 shadow-xl overflow-hidden animate-in fade-in slide-in-from-top duration-300">
           <div className="px-4 pt-2 pb-6 space-y-1.5 sm:px-3">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => handleNavClick(item.id)}
-                className={`block w-full text-left px-4 py-3 text-base font-body font-medium rounded-lg transition-colors cursor-pointer ${activeSection === item.id
-                  ? 'text-earth bg-white/5 font-bold'
-                  : 'text-cream/80 hover:text-cream hover:bg-white/5'
-                  }`}
-              >
-                {item.label}
-              </button>
-            ))}
+            {navItems.map((item) =>
+              item.href ? (
+                <a
+                  key={item.id}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center justify-between px-4 py-3 text-base font-body font-medium rounded-lg transition-colors cursor-pointer text-cream/80 hover:text-cream hover:bg-white/5"
+                >
+                  <span>{item.label}</span>
+                  <ExternalLink className="h-4 w-4 text-earth/90" />
+                </a>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => handleNavClick(item.id)}
+                  className={`block w-full text-left px-4 py-3 text-base font-body font-medium rounded-lg transition-colors cursor-pointer ${activeSection === item.id
+                    ? 'text-earth bg-white/5 font-bold'
+                    : 'text-cream/80 hover:text-cream hover:bg-white/5'
+                    }`}
+                >
+                  {item.label}
+                </button>
+              )
+            )}
             <div className="pt-4 px-4">
               <button
                 onClick={() => handleNavClick('contact')}

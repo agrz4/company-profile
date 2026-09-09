@@ -3,6 +3,7 @@ export const id = {
     home: 'Beranda',
     about: 'Tentang Kami',
     business: 'Bidang Usaha',
+    catalog: 'Katalog Produk',
     services: 'Layanan',
     warehouse: 'Logistik & Gudang',
     news: 'Berita',

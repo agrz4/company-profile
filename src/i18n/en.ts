@@ -3,6 +3,7 @@ export const en = {
     home: 'Home',
     about: 'About Us',
     business: 'Business Lines',
+    catalog: 'Catalog Products',
     services: 'Services',
     warehouse: 'Logistics & Warehousing',
     news: 'News',
